@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "https://remchi-s.github.io/today-i-learned/static/css/main.5f361e03.chunk.css",
+    "main.js": "https://remchi-s.github.io/today-i-learned/static/js/main.66d69da7.chunk.js",
+    "main.js.map": "https://remchi-s.github.io/today-i-learned/static/js/main.66d69da7.chunk.js.map",
+    "runtime-main.js": "https://remchi-s.github.io/today-i-learned/static/js/runtime-main.921c5312.js",
+    "runtime-main.js.map": "https://remchi-s.github.io/today-i-learned/static/js/runtime-main.921c5312.js.map",
+    "static/js/2.743edd3f.chunk.js": "https://remchi-s.github.io/today-i-learned/static/js/2.743edd3f.chunk.js",
+    "static/js/2.743edd3f.chunk.js.map": "https://remchi-s.github.io/today-i-learned/static/js/2.743edd3f.chunk.js.map",
+    "index.html": "https://remchi-s.github.io/today-i-learned/index.html",
+    "precache-manifest.b53f15c872ab95c1c2d17bf4e05440f2.js": "https://remchi-s.github.io/today-i-learned/precache-manifest.b53f15c872ab95c1c2d17bf4e05440f2.js",
+    "service-worker.js": "https://remchi-s.github.io/today-i-learned/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "https://remchi-s.github.io/today-i-learned/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.743edd3f.chunk.js.LICENSE.txt": "https://remchi-s.github.io/today-i-learned/static/js/2.743edd3f.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "https://remchi-s.github.io/today-i-learned/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.921c5312.js",
+    "static/js/2.743edd3f.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.66d69da7.chunk.js"
+  ]
+}
