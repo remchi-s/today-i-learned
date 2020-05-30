@@ -1,0 +1,38 @@
+---
+name: Deploy
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  deploy:
+    name: Build and deploy
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Setup Node.js 14
+        uses: actions/setup-node@v1
+        with:
+          node-version: 14
+
+      - name: Install dependencies
+        run: yarn
+
+      - name: Lint source code
+        run: yarn lint
+
+      - name: Test and collect coverage source code
+        run: yarn test:coverage
+
+      - name: Build
+        run: NODE_ENVIRONMENT=${{ secrets.NODE_ENVIRONMENT }} PUBLIC_URL=${{ secrets.PUBLIC_URL }} yarn build
+
+      - name: Deploy to gh-pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./build
